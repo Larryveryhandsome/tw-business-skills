@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{BRAND_NAME}} 報告範例</title>
+<style>
+/*{{TOKENS}}*/
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--serif-zh);font-size:var(--fs);line-height:1.85;letter-spacing:.02em}
+main{max-width:46rem;margin:0 auto;padding:0 16px}
+h1,h2,.num{font-family:var(--serif-en),var(--serif-zh);font-weight:400}
+.hero{padding:72px 0 48px;border-bottom:1px solid var(--accent)}
+.hero h1{font-size:2rem;margin:0 0 .5rem}
+.meta{color:var(--muted);font-size:.9rem}
+section{padding:48px 0}
+.num{color:var(--accent);font-size:2.4rem}
+.card{border-left:2px solid var(--accent);padding:.5rem 1rem;color:var(--muted)}
+footer{padding:48px 0;color:var(--muted);font-size:.85rem;text-align:center}
+</style>
+</head>
+<body>
+<main>
+<div class="hero"><h1>範例：本月營運摘要</h1><div class="meta">資料截止日：2026-01-31（虛構資料）</div></div>
+<section><div class="num">01</div><h2>一句話結論</h2><p>這是示範段落。第一眼要看到的資訊，直接放在首屏。</p>
+<div class="card">對你的含意：把結論、數字與行動各用一兩句話寫清楚。</div></section>
+<footer>{{FOOTER}}</footer>
+</main>
+</body>
+</html>

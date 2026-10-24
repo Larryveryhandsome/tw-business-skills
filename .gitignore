@@ -1,0 +1,5 @@
+brand.toml
+labor-year.toml
+*.pdf
+__pycache__/
+*.pyc

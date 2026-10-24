@@ -1,0 +1,10 @@
+# 年度勞動參數。請每年到勞動部／勞保局公告核對後填入，並填寫 year。
+# 本檔刻意不放數字，避免使用過期值。
+
+year = 0                      # 適用年度（民國或西元請自行統一）
+minimum_wage_monthly = 0      # 月基本工資
+minimum_wage_hourly = 0       # 時基本工資
+labor_insurance_wage_cap = 0  # 勞保投保薪資上限
+health_insurance_wage_cap = 0 # 健保投保金額上限
+pension_employer_rate = 0.06  # 勞退雇主提繳率下限（使用前請核對現行條文）
+source_checked_on = ""        # 你核對的日期，例如 2026-01-01

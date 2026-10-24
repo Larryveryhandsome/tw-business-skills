@@ -1,0 +1,33 @@
+# 品牌／抬頭設定範例。複製成 brand.toml 再改；brand.toml 不要上傳到公開處。
+# 下面全部是虛構佔位值，請換成你自己的。
+
+[brand]
+name = "你的品牌名稱"
+tagline = "一句話介紹"
+footer_credit = "由 你的品牌名稱 製作"
+
+[colors]            # 設計 tokens（範例值，請換成你的品牌色）
+ink   = "#1F2933"   # 主要文字／深底
+paper = "#FAF7F2"   # 淺底／深底上的文字
+accent = "#8A6D3B"  # 重點線、數字、徽章（不要大面積使用）
+muted = "#6B7280"   # 輔助文字
+
+[fonts]
+serif_en = "Cormorant Garamond"
+serif_zh = "Noto Serif TC"
+base_size_rem = 1.0
+
+[letterhead]        # 單據抬頭（brokerage-forms-a4 使用）
+company_name = "範例不動產經紀有限公司"
+tax_id = "00000000"
+address = "範例縣範例市範例路 1 號"
+phone = "0000-000-000"
+form_prefix = "EX"
+
+[fees]              # 費率與上限一律自己填「當期法規數字」，範例留空代表未核對
+agent_fee_cap_note = "待核對：請查現行《不動產經紀業報酬計收標準》"
+deposit_cap_months = 0          # 0 = 尚未核對，請自行填入現行條文的月數
+agent_fee_lease_cap_months = 0  # 0 = 尚未核對，請自行填入
+
+[pricing]           # client-brand-site-builder 的報價與維護方案，放這裡、不寫進通用模板
+maintenance_plan = "自訂"
