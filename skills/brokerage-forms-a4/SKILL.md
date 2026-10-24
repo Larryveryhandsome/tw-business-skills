@@ -66,3 +66,5 @@ python scripts/make_receipt.py --brand ../../config/brand.example.toml --data sc
 - 版型把店名、證號寫死。
 - 簽章欄跨頁。
 - 大寫金額與小寫不一致，一定自動產生並核對。
+
+> 需要改成你們公司的版本、幫忙安裝或串接？加 LINE 官方帳號 [@812ibtir](https://line.me/R/ti/p/@812ibtir)（留白事務所・林其衞），原則上 1～2 個工作天回覆報價。
